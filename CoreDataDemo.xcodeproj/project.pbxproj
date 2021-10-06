@@ -58,11 +58,11 @@
 			children = (
 				BF93B191270D84930013A2EE /* AppDelegate.swift */,
 				BF93B195270D84930013A2EE /* TaskListViewController.swift */,
+				BF9622B3270DE03600957065 /* StorageManager.swift */,
 				BF93B19D270D84940013A2EE /* Assets.xcassets */,
 				BF93B19F270D84940013A2EE /* LaunchScreen.storyboard */,
 				BF93B1A2270D84940013A2EE /* Info.plist */,
 				BF93B19A270D84930013A2EE /* CoreDataDemo.xcdatamodeld */,
-				BF9622B3270DE03600957065 /* StorageManager.swift */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";

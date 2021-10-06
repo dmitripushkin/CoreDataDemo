@@ -6,12 +6,10 @@
 //
 
 import UIKit
-import CoreData
-
 
 class TaskListViewController: UITableViewController {
     
-    private let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    private let context = StorageManager.shared.persistentContainer
     private let cellID = "task"
     private var taskList: [Task] = []
     
