@@ -12,7 +12,7 @@
 		BF93B19C270D84930013A2EE /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF93B19A270D84930013A2EE /* CoreDataDemo.xcdatamodeld */; };
 		BF93B19E270D84940013A2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF93B19D270D84940013A2EE /* Assets.xcassets */; };
 		BF93B1A1270D84940013A2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF93B19F270D84940013A2EE /* LaunchScreen.storyboard */; };
-		BF93B1A9270D98340013A2EE /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B1A8270D98340013A2EE /* TaskViewController.swift */; };
+		BF9622B4270DE03600957065 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9622B3270DE03600957065 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		BF93B19D270D84940013A2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF93B1A0270D84940013A2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF93B1A2270D84940013A2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF93B1A8270D98340013A2EE /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		BF9622B3270DE03600957065 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				BF93B19F270D84940013A2EE /* LaunchScreen.storyboard */,
 				BF93B1A2270D84940013A2EE /* Info.plist */,
 				BF93B19A270D84930013A2EE /* CoreDataDemo.xcdatamodeld */,
-				BF93B1A8270D98340013A2EE /* TaskViewController.swift */,
+				BF9622B3270DE03600957065 /* StorageManager.swift */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF93B196270D84930013A2EE /* TaskListViewController.swift in Sources */,
-				BF93B1A9270D98340013A2EE /* TaskViewController.swift in Sources */,
 				BF93B19C270D84930013A2EE /* CoreDataDemo.xcdatamodeld in Sources */,
 				BF93B192270D84930013A2EE /* AppDelegate.swift in Sources */,
+				BF9622B4270DE03600957065 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
